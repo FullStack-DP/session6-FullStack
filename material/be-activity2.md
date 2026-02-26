@@ -599,7 +599,10 @@ Benefits:
 
 ### 5.5 Test coverage
 
-Jest can report how much of your source code is exercised by the tests. Add the `--coverage` flag to generate a report:
+Jest can report how much of your source code is exercised by the tests. 
+
+<!-- 
+Add the `--coverage` flag to generate a report:
 
 ```bash
 npm test -- --coverage
@@ -620,7 +623,8 @@ middleware/requireAuth  |  90%  |  75%   |  100% |  90%
 - **Branch**: both sides of every `if`/`else` hit at least once.
 - **Functions**: every function called at least once.
 
-100% coverage does not mean zero bugs – it means every line was *executed*. The quality of assertions still matters.
+100% coverage does not mean zero bugs – it means every line was *executed*. The quality of assertions still matters. 
+-->
 
 ---
 
@@ -632,7 +636,7 @@ middleware/requireAuth  |  90%  |  75%   |  100% |  90%
 | Skip a test | `it.skip(...)` |
 | Run a specific file | `npm test -- tests/workout.test.js` |
 | Run tests matching a pattern | `npm test -- --testNamePattern="GET /api"` |
-| Generate coverage report | `npm test -- --coverage` |
+<!-- | Generate coverage report | `npm test -- --coverage` | -->
 
 **Reminder about the double `--`:**
 
